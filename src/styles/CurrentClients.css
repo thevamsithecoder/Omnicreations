@@ -1,0 +1,41 @@
+.current-clients {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f8f8f8;
+  }
+  
+  .section-label {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .client-logos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .logo-button {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .logo-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+  }

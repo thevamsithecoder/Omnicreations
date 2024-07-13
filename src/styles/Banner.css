@@ -1,0 +1,99 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
+.banner-content {
+  flex: 1;
+}
+
+.service-button {
+  background-color: #e6f3ff;
+  color: #007bff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.demo-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.stats {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.stat-item {
+  margin-right: 2rem;
+}
+
+.stat-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.stat-item p {
+  color: #666;
+}
+
+.banner-image {
+  position: relative;
+  flex: 1;
+  text-align: right;
+}
+
+.banner-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  width: 600px;
+  height: 560px;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+
+.client-count {
+  font-weight: bold;
+}
+
+.trust-badge {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
