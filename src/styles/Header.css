@@ -8,12 +8,14 @@
   
   .logo h1 {
     color: black;
-    margin: 0;
+    margin-left: 50px;
+    font-size: 25px;
   }
   
   .navigation {
     display: flex;
     align-items: center;
+    margin-right: 50px;
   }
   
   .navigation ul {
@@ -21,10 +23,14 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+   
   }
   
   .navigation li {
-    margin-right: 1rem;
+    margin-right: 2rem;
+    font-size: 14px;
+   
+   
   }
   
   .navigation a {
@@ -33,10 +39,21 @@
   }
   
   .cta-button {
-    background-color: #007bff;
+    background-color: #0787FE;
     color: white;
     border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
+    border-radius: 80px;
     cursor: pointer;
+    width : 145px;
+    height: 47px;
+    font-size: 14px;
   }
+
+  li:hover {
+      background-color: #0787FE;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 40px;
+     
+    }

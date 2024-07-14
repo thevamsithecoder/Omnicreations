@@ -7,7 +7,7 @@ import ContactUsImage from "../assets/ContactUsImage.png";
 const CustomerFeedback = () => {
   return (
     <div className="customer-feedback-container">
-      <h2 className="customer-feedback-title">Our customers speak for themselves.</h2>
+      <h2 className="customer-feedback-title">Our customers speak for <br /> themselves.</h2>
       <div className="customer-feedback-cards">
         <div className="customer-feedback-card">
           <p>

@@ -9,7 +9,7 @@ const Services = () => {
         <button className="services-button">WHAT WE DO</button>
         <h1>Our Service</h1>
         <p>
-          Katalyst Studio offers a range of design services that are tailored to meet the unique needs of each client
+          Katalyst Studio offers a range of design services that <br />are tailored to meet the unique needs of each client
         </p>
         <div className="services-list">
           <div className="service-item">
@@ -31,7 +31,7 @@ const Services = () => {
         </div>
       </div>
       <div className="services-right">
-        <img src={ServicesImage} alt="Woman smiling" />
+        <img src={ServicesImage}  alt="Woman smiling" />
       </div>
     </div>
   );

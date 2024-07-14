@@ -7,11 +7,11 @@
 
 .services-left {
   flex: 1;
-  margin-right: 20px;
+  margin-left: 50px;
 }
 
 .services-button {
-  background-color: #4361ee;
+  background-color: #0787FE;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -59,7 +59,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   border-radius: 30px;
 }
 
@@ -75,9 +74,11 @@
 
 .services-right {
   flex: 1;
+  margin-right: 50px;
 }
 
 .services-right img {
-  width: 100%;
-  border-radius: 20px;
+  width: 553px;
+  height: 547px;
+  border-radius: 30px;
 }

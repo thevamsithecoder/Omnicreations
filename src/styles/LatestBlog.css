@@ -25,11 +25,7 @@
     text-align: left;
   }
   
-  .latest-blog-card img {
-    width: 100%;
-    border-radius: 10px;
-  }
-  
+
   .latest-blog-card p {
     margin: 10px 0;
     font-size: 14px;
@@ -42,3 +38,8 @@
     cursor: pointer;
   }
   
+  .blog-card {
+      width: 363px;
+      height: 234px;
+      border-radius: 23px;
+  }

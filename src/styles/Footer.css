@@ -46,6 +46,7 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 50px;
 }
 
 .footer-links ul {
@@ -75,6 +76,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
+  margin-left: 50px;
 }
 
 .logo {
@@ -86,6 +88,7 @@ hr {
 .legal-links {
   display: flex;
   gap: 20px;
+  margin-right: 50px;
 }
 
 .legal-links a {

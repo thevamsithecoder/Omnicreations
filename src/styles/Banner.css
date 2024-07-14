@@ -8,16 +8,17 @@
 
 .banner-content {
   flex: 1;
+  margin-left: 50px;
 }
 
 .service-button {
-  background-color: #e6f3ff;
-  color: #007bff;
+  background-color: #0787FE;
+  color: white;
   border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
   font-weight: bold;
   margin-bottom: 1rem;
+  width: 150px;
+  height: 50px;
 }
 
 h1 {
@@ -35,13 +36,15 @@ h1 {
 }
 
 .demo-button {
+  height: 57px;
+  width: 282px;
   background-color: #007bff;
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 25px;
-  font-weight: bold;
   cursor: pointer;
+  font-size: 17px;
 }
 
 .stats {
@@ -54,8 +57,10 @@ h1 {
 }
 
 .stat-item h2 {
-  font-size: 1.5rem;
+  font-size: 36px;
   margin-bottom: 0.25rem;
+  font-weight: 700;
+  color: #172048
 }
 
 .stat-item p {
@@ -63,37 +68,16 @@ h1 {
 }
 
 .banner-image {
-  position: relative;
+ 
   flex: 1;
-  text-align: right;
+  margin-right: 50px;
 }
 
 .banner-image img {
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 30px;
   width: 600px;
   height: 560px;
 }
 
-.image-overlay {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: white;
-  padding: 0.5rem;
-  border-radius: 20px;
-}
 
-.client-count {
-  font-weight: bold;
-}
-
-.trust-badge {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  background-color: #007bff;
-  color: white;
-  padding: 0.5rem;
-  border-radius: 50%;
-}
